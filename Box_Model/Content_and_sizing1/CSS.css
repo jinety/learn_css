@@ -1,0 +1,15 @@
+.awesome{
+    text-decoration: uppercase;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1;
+    border: 5px solid;
+    padding: 2rem;
+    width: 320px;
+}
+.awesome[data-sizing="intrinsic"]{
+    width: min-content;
+}
+.awesome{
+    --fow-space: 2rem;
+}

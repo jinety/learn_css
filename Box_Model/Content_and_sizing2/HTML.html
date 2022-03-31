@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="CSS.css">
+<main>
+    <div class="wrapper">
+        <article class="flow">
+            <h1>Extrinsic sizing vs intrinsic sizing</h1>
+            <figure class="callout">
+                <p>Toggle intrinsic sizing on and off to see 
+                    how you can gain more control with 
+                    <strong>intrinsic sizing</strong>
+                </p>
+                <p>To see the effect that intrinsic and Extrinsic
+                    sizing has,go ahead and and add a few sentencs of content to
+                    the card to see the vast differences in display
+                </p>
+            </figure>
+            <label class="toggle" for="intrinsic-switch">
+                <span class="toggle_label">turn on intrinsic sizing</span>
+                <input type="checkbox" role="switch" class="toggle_element" id="intrinsic-switch"/>
+                <div class="toggle_decor" aria-hidden="true">
+                    <dir class="toggle_thumb"></dir>
+                </div>
+            </label>
+            <div class="box-layout">
+                <div class="dimension-label" aria-live="polite" aria-label="Current box width">
+                    <span data-element="width-label"></span>
+                </div>
+                <div></div>
+                <figure class="box-demo box" data-element="parent-box">
+                    <img src="https://thegioilamvuon.vn/wp-content/uploads/2021/01/hoa-hong-phan-1.jpg"
+                     alt="A purple Petunia flower in close focus">
+                     <figcaption contenteditable>
+                        You can edit this text to see how it changes the layout of our box,
+                        depending on intrinsic and extrinsic sizing.
+                     </figcaption>
+                </figure>
+                <div class="dimension-label" aria-live="polite" aria-label="Current box height" data-orientation="vertical">
+                    <span data-element="height-label"></span>
+                </div>
+            </div>
+        </article>
+    </div>
+</main>

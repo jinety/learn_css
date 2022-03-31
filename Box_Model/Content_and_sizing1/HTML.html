@@ -1,0 +1,27 @@
+<main>
+    <link rel="stylesheet" href="CSS.css" href="JS.js">
+    <div class="wrapper">
+        <article class="flow">
+            <h1>
+                Extringsic sizing vs ingtrinsic sizing
+            </h1>
+            <figure class="callout">
+                <p>
+                    Notice that when the box is using 
+                    <strong>extrinsic sizing</strong>,there's
+                    a limit of how much content you can add before
+                    it overflows out of the box's bounds. this makes
+                    the word,"awesome",overflow.
+                </p>
+            </figure>
+            <label class="toggle" for="ingtrinsic-switch">
+                <span class="toggle_label">Turn on ingtrinsic sizing</span>
+                <input type="checkbox" role="switch" class="toggle_element" id="intrinsic-switch" />
+                <div class="toggle_decor" aria-hidden="true">
+                    <div class="toggle_thumb"></div>
+                </div>
+            </label>
+            <p class="awesome" data-element="awesome">CSS is awesome</p>
+        </article>
+    </div>
+</main>

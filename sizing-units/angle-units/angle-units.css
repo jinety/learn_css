@@ -1,0 +1,10 @@
+div {
+	width: 150px;
+	height: 150px;
+	transform: rotate(60deg);
+}
+
+/* Presentational styles */
+div {
+    background: var(--color-primary);
+}

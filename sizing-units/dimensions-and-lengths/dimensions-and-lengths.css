@@ -1,0 +1,14 @@
+div{
+    width: 10vw;
+}
+p{
+    max-width: 60ch;
+}
+/*presemtational styles*/
+div, p{
+    border: 1px solid var(--color-stroke);
+    padding: 0.25rem;
+}
+main *+*{
+    margin-top: 1em;
+}

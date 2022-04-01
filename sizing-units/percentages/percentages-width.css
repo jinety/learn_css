@@ -1,0 +1,16 @@
+div{
+    width: 300px;
+    height: 100px;
+}
+div p{
+    width: 50%; /*calcutated: 150px*/
+}
+
+/*presentation styeles*/
+*{
+    box-sizing: content-box;
+}
+div, p{
+    border: 1px solid var(--color-stroke);
+    padding: 0.25rem;
+}

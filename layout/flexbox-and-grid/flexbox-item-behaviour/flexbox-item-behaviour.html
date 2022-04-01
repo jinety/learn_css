@@ -1,0 +1,36 @@
+<link rel="stylesheet" href="flexbox-item-behaviour.css">
+<main>
+    <div class="wrapper flow">
+        <article class="flow">
+            <h1>Flebox item behaviour</h1>
+            <figure class="cllout">
+                <p>The <code>align-items</code>, <code>justify-content</code>
+                and <code>flex-wrap</code> properties allow you to control how flex
+            children elements behave tith and around their sibking elements</p>
+            <p>Toggle the switches to see <code>flex-wrap</code> toggled to
+            enable or disable wrapping, <code>align-items</code> vertically
+        center items and <code>justifi-content</code> push items away form each other</p>
+            </figure>
+            <div>
+                <div class="cluster">
+                    <label for="flex-wrap" class="toggle">
+                        <span class="toggle_label">turn on wrapping</span>
+                        <input type="checkbox" role="switch" class="toggle_element" id="flex-wrap">
+                        <div class="toggle_decor" aria-hidden="true">
+                            <div class="toggle_thumb"></div>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </article>
+        <div class="my-element">
+            <div class="box">Child elements 1</div>
+            <div class="box">Child elements 2</div>
+            <div class="box">Child elements 3 has a bit more text than the others</div>
+            <div class="box">Child elements 4</div>
+            <div class="box">Child elements 5</div>
+            <div class="box">Child elements 6</div>
+            <div class="box">The last item</div>
+        </div>
+    </div>
+</main>

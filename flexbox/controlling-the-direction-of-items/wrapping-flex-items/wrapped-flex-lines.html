@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="wrapped-flex-lines.css">
+<main>
+    <div class="wrapper">
+        <article class="flow">
+            <h1>Wrapped flex lines</h1>
+            <figure class="callout">
+                <p> In this example the flex container has <code>flex-wrap: wrap</code> so the
+                    flex items display at max-content size and wrap onto new lines.</p>
+            </figure>
+            <div class="controls">
+                <label class="toggle" for="flexWrap">
+                    <span class="toggle_label">toggle flex wrapping off/on</span>
+                    <input type="checkbox" role="switch" class="toggle_element" id="flexWrap" checked />
+                    <div class="toggle_decor" aria-hidden="true">
+                        <div class="toggle_thumb"></div>
+                    </div>
+                </label>
+            </div>
+            <div class="container" id="container">
+                <div class="box">Item one</div>
+                <div class="box">Item two</div>
+                <div class="box">Item three</div>
+                <div class="box">Item four</div>
+                <div class="box">Item five, with longer text</div>
+                <div class="box">Item six</div>
+            </div>
+        </article>
+    </div>
+</main>

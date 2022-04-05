@@ -1,0 +1,21 @@
+.element{
+    width: 200px;
+    height: 2000px;
+    border: thick solid;
+    border-top-color: red;
+    border-left-color: blue;
+    border-right-color: green;
+    border-bottom-color: gold;
+}
+.demo{
+    margin: 2em auto;
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    gap: 1rem;
+    align-items: center;
+    justify-items: center;
+}
+.top,
+.bottom{
+    grid-column: 1/4;
+}

@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="relative-positioning-and-z-index.css" />
+<main>
+  <div class="wrapper">
+    <article class="flow">
+      <h1>Relative positioning and z-index</h1>
+      <figure class="callout">
+        <p>
+          Turn <code>position: relative;</code> off and on to see how it affects
+          <code>z-index</code>
+        </p>
+      </figure>
+      <label class="toggle" for="toggle-element">
+        <span class="tohhle_lable"
+          >Turn <code>position: relative;</code> on</span
+        >
+        <input
+          type="checkbox"
+          role="switch"
+          id="toggle-element"
+          class="toggle_element"
+        />
+        <div class="demo">
+          <div class="demo-box"><code>z-index: 3;</code></div>
+          <div class="demo-box"><code>z-index: 1;</code></div>
+          <div class="demo-box"><code>z-index: 2;</code></div>
+        </div>
+      </label>
+    </article>
+  </div>
+</main>

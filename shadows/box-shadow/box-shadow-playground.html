@@ -1,0 +1,49 @@
+<link rel="stylesheet" href="box-shadow-playground.css" />
+<main>
+  <div class="wrapper">
+    <article class="flow">
+      <h1>Box shadow playground</h1>
+      <figure class="callout">
+        <p>
+          Use the inputs to modify the value of the offset, blur, spread and
+          color to change the box shadow.
+        </p>
+      </figure>
+      <div class="flow result-css">
+        <h2>Current CSS</h2>
+        <p id="result"></p>
+      </div>
+      <form class="inputs">
+        <div>
+          <label for="offsetx">Offset X (pixels)</label>
+          <input type="number" id="offsetx" min="0" max="100" value="5" />
+        </div>
+        <div>
+          <label for="offsetx">Offset X (pixels)</label>
+          <input type="number" id="offsetx" min="0" max="100" value="5" />
+        </div>
+        <div>
+          <label for="offsety">Offset Y (pixels)</label>
+          <input type="number" id="offsetx" min="0" max="100" value="5" />
+        </div>
+        <div>
+          <label for="blur">Blur (pixels)</label>
+          <input type="number" id="offsetx" min="0" max="100" value="20" />
+        </div>
+        <div>
+          <label for="spread">spread (pixels)</label>
+          <input type="number" id="offsetx" min="0" max="100" value="20" />
+        </div>
+        <div>
+          <label for="color">Color</label>
+          <input type="color" id="color" value="#000000" />
+        </div>
+        <div>
+          <label for="color">Inset</label>
+          <input type="checkbox" id="inset" />
+        </div>
+      </form>
+      <div class="my-element"></div>
+    </article>
+  </div>
+</main>

@@ -1,0 +1,17 @@
+.my-element{
+    text-shadow: 1px 1px 0px white,
+    2px 2px 0px firebrick;
+    color: darkslateblue;
+}
+body{
+    background: #f3f3f3;
+}
+.my-element{
+    --flow-space: 2rem;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    line-height: 1.1;
+    max-width: 40ch;
+}

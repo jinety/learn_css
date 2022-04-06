@@ -1,0 +1,11 @@
+:root{
+    --var-scroll-behavior: 'smooth';
+}
+.chat-srcollview{
+    scroll-behavior: var(--var-scroll-behavior);
+}
+@media (prefers-reduced-motion){
+    .chat-srcollview{
+        scroll-behavior: auto;
+    }
+}

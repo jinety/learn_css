@@ -1,0 +1,7 @@
+video::backdrop{
+    background-color: goldenrod;
+}
+video{
+    min-width: 20rem;
+    max-width: 50%;
+}

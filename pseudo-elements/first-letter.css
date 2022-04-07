@@ -1,0 +1,15 @@
+p:first-of-type::first-letter{
+    color: red;
+    float: left;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1;
+    margin-inline-end: 0.2rem;
+}
+article{
+    display: flow-root;
+}
+h1{
+    font-weight: bold;
+    max-width: 22ch;
+}

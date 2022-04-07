@@ -1,0 +1,37 @@
+<link rel="stylesheet" href="background-size.css" />
+<div class="wrapper">
+  <h2>Adjusting the size of a background-image only using keywords</h2>
+  <figure id="demoCallout" class="callout">
+    <p>
+      In this example each CSS box has its <code>background-size</code> set
+      using one of the predefined keywords the property accepts:
+      <code>contain</code>&nbsp;,&nbsp;<code>cover</code>, or
+      <code>auto</code> (the default).
+    </p>
+    <p>
+      After a background image is resized depending on the value of
+      <code>background-size</code>, empty space can remain that will cause the
+      image to repeat as needed to occupy that space as unless the default
+      behavior of `background-repeat: repeat` is changed
+    </p>
+  </figure>
+  <div id="containerOfDemoBoxes">
+    <div class="demo">
+      <div id="demoBox1" class="demo-box"></div>
+
+      <span class="demo-label"><code>background-size: contain</code></span>
+    </div>
+    <div class="demo">
+      <div id="demoBox2" class="demo-box"></div>
+
+      <span class="demo-label"><code>background-size: cover</code></span>
+    </div>
+
+    <div class="demo">
+      <div id="demoBox3" class="demo-box"></div>
+
+      <span class="demo-label"><code>background-size: auto</code></span>
+    </div>
+  </div>
+  <div></div>
+</div>

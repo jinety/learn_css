@@ -1,0 +1,6 @@
+.my-parent div:first-child{
+    color: blue;
+}
+.my-parent div:first-of-type{
+    color: blue;
+}

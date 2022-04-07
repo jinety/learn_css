@@ -1,0 +1,6 @@
+li:only-child{
+    background: lightcoral;
+}
+article{
+    max-width: 60ch;
+}

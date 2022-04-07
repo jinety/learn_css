@@ -1,0 +1,11 @@
+p:first-child{
+    background: lightskyblue;
+    font-weight: bold;
+}
+p:last-child{
+    background: lightyellow;
+    font-weight: bold;
+}
+article{
+    max-width: 60ch;
+}

@@ -1,0 +1,14 @@
+button:disabled{
+    background: grey;
+    border-color: grey;
+    cursor: not-allowed;
+}
+button:disabled:hover{
+    box-shadow: none;
+}
+div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+}

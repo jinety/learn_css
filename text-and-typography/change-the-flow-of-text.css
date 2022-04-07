@@ -1,0 +1,11 @@
+p.vertical-rl{
+    writing-mode: vertical-rl;
+}
+p.vertical-lr{
+    writing-mode: vertical-lr;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

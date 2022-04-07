@@ -1,0 +1,49 @@
+.a{
+    text-decoration-line: underline;
+    text-decoration-color: coral;
+}
+.b{
+    text-decoration-line: line-through;
+    text-decoration-color: slateblue;
+}
+.c{
+    text-decoration-line: overline;
+    text-decoration-color: lime;
+}
+.d{
+    text-decoration-line: underline overline line-through;
+    text-decoration-color: aqua;
+}
+.e{
+    text-decoration-style:double;
+}
+.f{
+    text-decoration-style:wavy;
+}
+.g{
+    text-decoration-style:dotted;
+}
+.h{
+    text-decoration-style:dashed;
+}
+.j{
+    text-decoration-thickness: 2px;
+}
+.k{
+    text-decoration-thickness: 0.2em;
+}
+.l{
+    text-decoration-thickness: 30%;
+}
+.x{
+    text-decoration: underline 2px red wavy;
+}
+.y{
+    text-decoration: line-through rgba(255, 180, 0, 0.4) 1.4ex;
+}
+.x{
+    text-decoration: underline 8px dotted rgba(0, 0, 50, 0.5);
+}
+.x{
+    text-decoration: line-through 4px solid rgba(70, 70,70, 0.9);
+}

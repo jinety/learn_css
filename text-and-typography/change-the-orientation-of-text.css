@@ -1,0 +1,12 @@
+.mixed-horizontal{
+    writing-mode: horizontal-tb;
+    text-orientation: mixed;
+}
+.mixed-vertical-rl{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+.upright-horizontal-rl{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}

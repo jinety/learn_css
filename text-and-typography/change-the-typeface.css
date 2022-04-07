@@ -1,0 +1,14 @@
+@import
+/*url(https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap);
+url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');*/
+url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+
+.grape-nuts{
+    font-family: 'Grape Nuts', cursive;
+}
+.rubik-moonrocks{
+    font-family: 'Rubik Moonrocks', cursive;
+}
+.beau-rivage{
+    font-family: 'Beau Rivage', cursive;
+}
